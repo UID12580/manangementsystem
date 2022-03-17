@@ -10,9 +10,6 @@ import org.springframework.util.unit.DataSize;
 
 import javax.servlet.MultipartConfigElement;
 
-/**
- * @author luoyi-
- */
 @Configuration
 @SpringBootApplication
 @MapperScan(basePackages = {"com.yeqifu.*.mapper"})
