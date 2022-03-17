@@ -30,7 +30,10 @@ public class WarehouseApplication {
 		 * 总上传数据大小6
 		 */
 		factory.setMaxRequestSize(DataSize.parse("102400KB"));
+
 		return factory.createMultipartConfig();
 	}
+
+//	推测试
 
 }
